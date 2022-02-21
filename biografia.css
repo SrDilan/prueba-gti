@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+from h1{
+    padding: 10px;
+    color: aliceblue;
+    background: rgba(200, 96, 14, 0.8);
+    font-family: sans-serif;
+    position: absolute;
+    padding-left: 100px;
+    top: 300px;
+    
+    
+}
+
+body{
+    background: #000;
+    font-family: sans-serif;
+    padding-top: 230px;
+
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/1200px-Naruto_logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;    
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    text-align: center;
+    visibility:visible; 
+    
+
+}
+
+header h1 {
+    font-size: 60px;
+    color: red;
+    line-height: 120px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    font-family: 'Calistoga', cursive;
+    text-align: left;
+
+}
+
+header h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+header nav{
+    position: absolute;
+    bottom:0;
+    height: 70px;
+    line-height: 10px;
+    width:100%;
+    background: rgba(200, 0, 0, 1.11);
+    transition: all 0.5s ease;
+
+}
+
+header nav a{
+    color: white;
+    display: inline-block;
+    padding: 30px 30px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header nav a:hover{
+    background: rgba(0, 0, 0, 0.2)
+}
+
+ul, ol{
+    list-style: none;
+}
+
+header ul li{
+    display: none;
+    position: absolute;
+}
+
+header li:hover > ul {
+    display: block;
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 0vh;
+    border-radius: 0px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 8px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding-top: 300px;
+    padding-left: 500px;
+}
+
+.tz-gallery .lightbox img {
+    width: 35%;
+    height: 35%;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px){}
+    body {
+        padding: 0;
+ }
+
+.container.gallery-container {
+        border-radius: 0;
+    }
+    
+#footer {
+      background-color: #33292C44;
+      position: fixed;
+      display: inline-block;
+      bottom: 100px;
+      width: 100%;
+      height: 50px;
+      color: white;
+}
+
+#footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 52px;
+    top: 365%;
+    width: 100%;
+    position: absolute;
+}
+
+#footer p{
+    margin: 10px;
+}
+
+#footer a{
+    color: white;
+}

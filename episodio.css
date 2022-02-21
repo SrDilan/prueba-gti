@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+h1.tit{color: #000000;}
+
+from h1{
+    padding: 10px;
+    color: aliceblue;
+    background: rgba(200, 96, 14, 0.8);
+    font-family: sans-serif;
+    position: absolute;
+    padding-left: 100px;
+    top: 300px;
+}
+
+body{
+    background: #000;
+    font-family: sans-serif;
+    padding-top: 230px;
+
+}
+
+header{
+     width: 100%;
+    height: 250px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/1200px-Naruto_logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;    
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 60px;
+    color: red;
+    line-height: 120px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    font-family: 'Calistoga', cursive;
+    text-align: left;
+
+}
+
+header h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+header nav{
+    position: absolute;
+    bottom:0;
+    height: 70px;
+    line-height: 10px;
+    width:100%;
+    background: rgba(200, 0, 0, 1.11);
+    transition: all 0.5s ease;
+
+}
+
+header nav a{
+    color: white;
+    display: inline-block;
+    padding: 30px 30px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header nav a:hover{
+    background: rgba(0, 0, 0, 0.2)
+}
+
+ul, ol{
+    list-style: none;
+}
+
+header ul li{
+    display: none;
+    position: absolute;
+}
+
+header li:hover > ul {
+    display: block;
+}
+
+#footer {
+      background-color: #33292C44;
+      position: fixed;
+      display: inline-block;
+      bottom: 100px;
+      width: 100%;
+      height: 50px;
+      color: white;
+}
+
+#footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 52px;
+    top: 200%;
+    width: 100%;
+    position: absolute;
+}
+
+#footer p{
+    margin: 10px;
+}
+
+#footer a{
+    color: white;
+}    
+
+.cap1{
+    width: 350px;
+    height:0%;
+    padding-left: 450px;
+}
+
+iframe{
+    left: -125px;
+    position:relative;
+    top: 150px;
+
+}
+
+
+
